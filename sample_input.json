@@ -1,0 +1,25 @@
+{
+  "entity_type": "wallet",
+  "entity_id": "0x1234567890abcdef1234567890abcdef12345678",
+  "chain": "polygon",
+  "transactions": [
+    {
+      "hash": "0xabc...",
+      "from": "0x123...",
+      "to": "0x456...",
+      "value": "100.0",
+      "gas_used": 21000,
+      "timestamp": 1700000000,
+      "method": "transfer"
+    },
+    {
+      "hash": "0xdef...",
+      "from": "0x123...",
+      "to": "0x789...",
+      "value": "0.0",
+      "gas_used": 50000,
+      "timestamp": 1700000100,
+      "method": "approve"
+    }
+  ]
+}
